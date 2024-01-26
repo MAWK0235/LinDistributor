@@ -42,13 +42,13 @@ Explore some examples to get started quickly.
 
 ```bash
 # Enumerate a single target with LinPeas
-python LinDistributer.py -lp /path/to/linpeas.sh -up /output/directory -t 192.168.1.1 -u user -p pass -P 2222
+python LinDistributor.py -lp /path/to/linpeas.sh -up /output/directory -t 192.168.1.1 -u user -p pass -P 2222
 
 # Enumerate multiple targets from a list using RSA authentication
-python LinDistributer.py -lp /path/to/linpeas.sh -up /output/directory -tl targets.txt -u user -R /path/to/private_key -P 2222
+python LinDistributor.py -lp /path/to/linpeas.sh -up /output/directory -tl targets.txt -u user -R /path/to/private_key -P 2222
 
 # Enumerate an entire subnet with LinPeas
-python LinDistributer.py -lp /path/to/linpeas.sh -up /output/directory -t 192.168.1.0/24 -u user -p pass -P 2222
+python LinDistributor.py -lp /path/to/linpeas.sh -up /output/directory -t 192.168.1.0/24 -u user -p pass -P 2222
 
 
 ## Examples
@@ -57,12 +57,12 @@ Explore some examples to get started quickly.
 
 ```bash
 # Enumerate a single target
-python LinDistributer.py --target 192.168.1.1 --username user --password pass --port 22
+python LinDistributor.py --target 192.168.1.1 --username user --password pass --port 22
 
 # Enumerate multiple targets from a list
-python LinDistributer.py --targetList targets.txt --username user --password pass --port 22
+python LinDistributor.py --targetList targets.txt --username user --password pass --port 22
 
 # Enumerate an entire subnet
-python LinDistributer.py --target 192.168.1.0/24 --username user --password pass --port 22
+python LinDistributor.py --target 192.168.1.0/24 --username user --password pass --port 22
 ```
 
