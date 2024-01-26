@@ -1,3 +1,6 @@
+![image](https://github.com/MAWK0235/LinDistributor/assets/90433993/59ad564a-e35d-49bb-8420-64e98ce2f84d)
+
+
 # LinDistributor: Accelerate and Organize LinPeas Enumeration
 
 Tired of the game of jumping between systems during a pentest with LinPeas? Look no further! Introducing LinDistributor – your go-to solution to expedite the LinPeas enumeration process while maintaining impeccable organization. Say goodbye to delays and the tedious hunt for results one by one. With LinDistributor, do it all at once and reclaim valuable time to focus on other tasks!
@@ -18,12 +21,13 @@ Tired of the game of jumping between systems during a pentest with LinPeas? Look
 ## Installation
 
 ```bash
-gitclone 
+gitclone https://github.com/MAWK0235/LinDistributor.git
 pip install -r requirements.txt
 ```
 
 ## Usage
 
+![image](https://github.com/MAWK0235/LinDistributor/assets/90433993/78b2e70f-c2d3-4659-92ed-cfa12f0c8162)
 
 ## Command Line Arguments
 
@@ -65,4 +69,6 @@ python LinDistributor.py --targetList targets.txt --username user --password pas
 # Enumerate an entire subnet
 python LinDistributor.py --target 192.168.1.0/24 --username user --password pass --port 22
 ```
+Viewing the below image check the different responses for Success, Authentication Failed, and couldnt connect
+![image](https://github.com/MAWK0235/LinDistributor/assets/90433993/d8833459-99e2-484c-90e2-fdf5e50f757e)
 
