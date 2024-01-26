@@ -1,6 +1,6 @@
 argparse==1.4.0
 urllib3==1.26.8
-paramiko==2.7.2
+paramiko==3.4.0
 ipaddress==1.0.23
 colorama==0.4.4
 
